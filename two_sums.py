@@ -1,3 +1,9 @@
+# Code adapted from Sahil Sharma, used with permission, from Spring, 2021
+from math import pow
+from math import log2
+from math import factorial
+
+
 #NOTE: Brute Force O(n^2)
 class Solution(object):
     def twoSum(self, nums, target):
@@ -37,10 +43,10 @@ class Faster_Solution(object):
 
 # nums = [2,7,11,15]
 # target = 9
-# nums = [3,2,4]
-# target = 6
-nums = [3,3]
+nums = [3,2,4]
 target = 6
+# nums = [3,3]
+# target = 6
 solution = []
 
 print(Faster_Solution.twoSum(solution,nums, target))
